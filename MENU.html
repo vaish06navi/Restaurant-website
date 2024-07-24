@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="MENU.html">MENU</a></li>
+                    <li><a href="delivery.html">ORDER NOW</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>MENU</h1>
+        </section>
+</body>
+
+<body>
+    <section class="m1">
+        <h1>Indian Cuisines</h1>
+        
+    <div class="row">
+        <div class="course-col">
+            <h3>Starters</h3>
+            <p> <ul>
+                <li>Samosa - ₹100</li>
+                <li>Pakoras - ₹120</li>
+                <li>Tandoori Chicken - ₹180</li>
+                <li>Paneer Tikka - ₹160</li>
+              </ul>
+            </p>
+
+        </div>
+        <div class="course-col">
+            <h3>Main Courses</h3>
+            <p><ul>
+                <li>Butter Chicken - ₹350</li>
+                <li>Chicken Biryani - ₹300</li>
+                <li>Palak Paneer - ₹250</li>
+                <li>Mutton Rogan Josh - ₹400</li>
+              </ul>
+            </p>
+
+        </div>
+        <div class="course-col">
+            <h3>Deserts</h3>
+            <p> <ul>
+                <li>Gulab Jamun - ₹120</li>
+                <li>Rasmalai - ₹140</li>
+                <li>Kheer - ₹100</li>
+                <li>Jalebi - ₹100</li>
+              </ul>
+            </p>
+
+        </div>
+
+    </div>
+    </section>
+    <section class="m2">
+            <h1>Korean Cuisines</h1>
+            
+        <div class="row">
+            <div class="course-col">
+                <h3>Starters</h3>
+                <p> <ul>
+                        <li>Kimchi - ₹150</li>
+                        <li>Bulgogi - ₹200</li>
+                        <li>Tteokbokki - ₹180</li>
+                        <li>Pajeon - ₹160</li>
+                    </ul>
+                </p>
+    
+            </div>
+            <div class="course-col">
+                <h3>Main Courses</h3>
+                <p>
+                    <ul>
+                        <li>Bibimbap - ₹350</li>
+                        <li>Bulgogi - ₹300</li>
+                        <li>Japchae - ₹250</li> 
+                        <li>Dakgalbi - ₹400</li>
+                      </ul>
+                </p>
+    
+            </div>
+            <div class="course-col">
+                <h3>Deserts</h3>
+                <p>
+                    <ul>
+                        <li>Banchan - ₹80</li>
+                        <li>Gimbap - ₹70</li>
+                        <li>Tteokguk - ₹120</li>
+                        <li>Japchae - ₹100</li>
+                      </ul>
+                </p>
+    
+            </div>
+    
+        </div>
+    </section>
+    <section class="m3">
+        <h1>Chinese Cuisines</h1>
+        
+    <div class="row">
+        <div class="course-col">
+            <h3>Starters</h3>
+            <p> 
+                <ul>
+                    <li>Spring Rolls - ₹100</li>
+                    <li>Dumplings - ₹120</li>
+                    <li>Sesame Chicken - ₹180</li>
+                    <li>Peking Duck - ₹160</li>
+                  </ul>
+            </p>
+
+        </div>
+        <div class="course-col">
+            <h3>Main Courses</h3>
+            <p>
+                <ul>
+                    <li>Kung Pao Chicken - ₹350</li>
+                    <li>Mapo Tofu - ₹300</li>
+                    <li>Sweet and Sour Pork - ₹250</li>
+                    <li>Beef with Broccoli - ₹400</li>
+                  </ul>
+            </p>
+
+        </div>
+        <div class="course-col">
+            <h3>Noddles</h3>
+            <p>
+                <ul>
+                    <li>Chow Mein - ₹80</li>
+                    <li>Lo Mein - ₹70</li>
+                    <li>Dan Dan Noodles - ₹120</li>
+                    <li>Hot and Sour Soup - ₹100</li>
+                  </ul>
+            </p>
+
+        </div>
+
+    </div>
+</section>
+   
+    
+    
+  </body>
+
+
+
+
+
+
+
+<!-----------aboutt------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>EVERY FLAVOUR TELLS A STORY - A breathtaking rooftop which hosts a view of the whole town and the most flamboyant factor you look up to is the sky filled with millions of glittering stars. It makes it perfect for a candlelight dinner . Enjoy the finest liquor, have the best food </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+</section>
+
+
+
+
+
+<!----------javascript for toggle menu-------->
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hideMenu(){
+        navlinks.style.right="-300px";
+    }
+</script> 
+
+    
+</body>
+</html>
